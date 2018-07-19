@@ -11,6 +11,11 @@
 
   {{ .Render "featured" }}
   <div id="content">
+    {{ if .Params.toc }}
+    <h3>Jump to</h3>
+    {{ .TableOfContents }}
+    <hr />
+    {{ end }}
     {{ .Content }}
   </div>
 
