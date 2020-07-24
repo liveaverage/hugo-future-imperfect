@@ -801,7 +801,7 @@
 		}
 
 			.image.featured img {
-				width: 100%;
+				width: 75%;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -1177,6 +1177,7 @@
 				-ms-transition: -ms-transform 0.2s ease-out;
 				transition: transform 0.2s ease-out;
 				width: 100%;
+				padding: .3em;
 			}
 
 			.mini-post .image:hover img {
@@ -2503,8 +2504,8 @@
 
 	#sidebar {
 		margin-right: 3em;
-		min-width: 18em;
-		width: 22em;
+		min-width: 12em;
+		width: 16em;
 	}
 
 		#sidebar > * {
